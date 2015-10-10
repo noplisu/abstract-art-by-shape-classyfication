@@ -1,0 +1,31 @@
+Package: CRImage
+Type: Package
+Title: CRImage a package to classify cells and calculate tumour
+        cellularity
+Version: 1.16.0
+Date: 2012-10-01
+Author: Henrik Failmezger <failmezger@mpipz.mpg.de>, Yinyin Yuan <Yinyin.Yuan@cancer.org.uk>, Oscar Rueda <oscar.rueda@cancer.org.uk>,  Florian Markowetz <Florian.Markowetz@cancer.org.uk>
+Maintainer: Henrik Failmezger <failmezger@mpipz.mpg.de>, Yinyin Yuan
+ <Yinyin.Yuan@cancer.org.uk>
+Description: CRImage provides functionality to process and analyze images, in particular to classify cells in biological images. Furthermore, in the context of tumor images, it provides functionality to calculate tumour cellularity.
+License: Artistic-2.0
+LazyLoad: yes
+Imports: MASS, e1071, foreach, sgeostat
+Depends: EBImage, DNAcopy, aCGH
+Collate: plotCorrectedCN.R correctCopyNumber.R writeDensityImage.R
+        convertRGBToHSV.R convertHSVToRGB.R imageCompression.R
+        createBinaryImage.R colorCorrection.R searchStructures.R
+        segmentStructures.R classifyStructures.R numberOfNeighbors.R
+        segmentCytoplasma.R segmentImage.R createClassifier.R
+        kernelSmoother.R paintCells.R classifyCells.R
+        determineCellularity.R calculateCellularity.R findSlices.R
+        parseFinalScan.R classificationAperio.R processAperio.R
+        Phansalkar_threshold.R SauvolaThreshold.R
+        calculateMeanStdTarget.R convertLABToRGB.R convertRGBToLAB.R
+        localORThreshold.R oregonThreshold.R localThreshold.R
+        calculateOtsu.R classifyPen.R getImageDistance.R hist3d.R
+        labelCells.R plotImage.R
+biocViews: CellBiology, Classification
+Packaged: 2015-04-17 03:31:18 UTC; biocbuild
+NeedsCompilation: no
+Built: R 3.2.0; ; 2015-04-17 07:52:58 UTC; windows

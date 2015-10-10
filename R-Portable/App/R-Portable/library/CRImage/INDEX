@@ -1,0 +1,24 @@
+CRImage-package         CRImage is a package to analyze images and
+                        classify cells.
+SauvolaThreshold        Do Sauvola thresholding
+calculateCellularity    Calculation of tumour cellularity
+calculateMeanStdTarget
+                        Calculates Mean and Standard deviation of an
+                        image
+calculateOtsu           Does Otsu thresholding
+classifyCells           A function to classify cells
+colorCorrection         Color transfer between images.
+convertHSVToRGB         Conversion from HSV color space to RGB color
+                        space
+convertLABToRGB         Conversion of LAB colour space to RGB colour
+                        space
+convertRGBToHSV         Conversion from RGB color space to HSV color
+                        space
+convertRGBToLAB         Converts RGB to LAB color space.
+correctCopyNumber       Allelic Copy Number correction for cellularity
+createBinaryImage       Thresholding
+createClassifier        Construction of a classifier
+labelCells              Interactive Session for cell labeling
+plotCorrectedCN         Plot CN profiles corrected for cellularity
+processAperio           Cellularity Calculation of Aperio TX Scanner
+segmentImage            Segmentation of an image

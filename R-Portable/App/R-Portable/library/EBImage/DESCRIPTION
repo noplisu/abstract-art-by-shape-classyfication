@@ -1,0 +1,18 @@
+Package: EBImage
+Version: 4.10.1
+Title: Image processing and analysis toolbox for R
+Encoding: UTF-8
+Author: Andrzej Oleś, Gregoire Pau, Mike Smith, Oleg Sklyar, Wolfgang Huber, with contributions from Joseph Barry and Philip A. Marais
+Maintainer: Andrzej Oleś <andrzej.oles@embl.de>
+Depends:
+Imports: BiocGenerics (>= 0.7.1), methods, graphics, grDevices, stats,
+        abind, tiff, jpeg, png, locfit, fftwtools (>= 0.9-7)
+Suggests: BiocStyle
+Description: EBImage provides general purpose functionality for image processing and analysis. In the context of (high-throughput) microscopy-based cellular assays, EBImage offers tools to segment cells and extract quantitative cellular descriptors. This allows the automation of such tasks using the R programming language and facilitates the use of other tools in the R environment for signal processing, statistical modeling, machine learning and data visualization.
+License: LGPL
+LazyLoad: true
+biocViews: Visualization
+NeedsCompilation: yes
+Packaged: 2015-07-02 02:39:12 UTC; biocbuild
+Built: R 3.2.1; i386-w64-mingw32; 2015-07-02 08:27:52 UTC; windows
+Archs: i386, x64
